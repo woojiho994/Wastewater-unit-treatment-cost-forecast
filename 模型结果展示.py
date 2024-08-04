@@ -8,7 +8,7 @@ Created on Sun Aug  4 23:11:03 2024
 import streamlit as st
 import numpy as np
 from joblib import load
-import sklearn
+
 # 加载保存的模型
 model = load('random_forest_model.joblib')
 
