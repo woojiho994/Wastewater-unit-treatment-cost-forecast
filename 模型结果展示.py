@@ -17,7 +17,7 @@ features = ['物理工艺', '化学工艺', '生物工艺', '物理化学工艺'
 
 # Streamlit应用的主函数
 def run():
-    st.title('东莞电镀行业废水单位治理成本预测')
+    st.title('东莞电镀行业废水单位治理成本预测(基于随机森林模型)')
 
     # 创建单选按钮
     feature_selections = {
