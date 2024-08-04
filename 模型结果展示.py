@@ -10,7 +10,7 @@ import numpy as np
 from joblib import load
 
 # 加载保存的模型
-model = load('random_forest_model.joblib')
+model = load('random_forest_model_.joblib')
 
 # 特征列表
 features = ['物理工艺', '化学工艺', '生物工艺', '物理化学工艺', '生物化学工艺', '废水实际处理能力']
