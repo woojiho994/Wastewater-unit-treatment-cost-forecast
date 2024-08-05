@@ -46,7 +46,7 @@ def run():
         prediction = model.predict(features_array)
         result = round(prediction[0],2)
         # 显示预测结果
-        if wastewater_treatment_capacity = 0:
+        if wastewater_treatment_capacity == 0:
             st.write('请输入废水废水实际处理能力')
         else:
             st.write(f'预测单位废水治理成本: {result}'+'元/吨')
